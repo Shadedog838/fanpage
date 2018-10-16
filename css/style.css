@@ -1,9 +1,20 @@
 html {
     height: 100%;
 }
+.container{
+    width:90%;
+    display: block;
+    margin:auto;
+    text-align:center;
+    background-color:#AD432C ;
+    
+    
+}
+
 
 body {
     height: 100%;
+    background-color: #393031;
     
 }
 a {
@@ -16,4 +27,8 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.header{
+    width:100%;
+    height:500px;
 }
