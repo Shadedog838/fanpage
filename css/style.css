@@ -1,34 +1,106 @@
-html {
+body, html {
     height: 100%;
+    margin: 0;
 }
 .container{
     width:90%;
     display: block;
     margin:auto;
     text-align:center;
-    background-color:#AD432C ;
-    
+    background-color:#f5deb3;
     
 }
 
 
 body {
-    height: 100%;
-    background-color: #393031;
+    
+Background-image:url("https://www.desktopbackground.org/p/2012/01/03/322336_avatar-the-last-airbender-wallpapers_2700x1519_h.jpg");
+   height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
     
 }
 a {
     text-decoration: none;
 }
+.map{
+    width: 100%;
+    height:400px;
+}
+.header{
+    width:100%;
+    height:300px;
+    
+
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-around;
+  
+}
+.home{
+   background-color: #393031;
+   width:33%;
+     font-size: 20px;
+     color:white;
+
+}
+.home:hover{
+    background-color:#eeeee0;
+}
+.About{
+     background-color: #393031;
+  width:33%;
+   font-size: 20px;
+   color:white;
+  
+    
+}
+.About:hover{
+    background-color: #eeeee0;
+}
+.Gallery{
+     background-color: #393031;
+width:34%;
+     font-size: 20px;
+     color:white;
+ 
+}
+.Gallery:hover{
+    background-color: #eeeee0;
+}
+.aboutmain{
+    display: flex;
+    align-items:center;
+}
+.leftPane{
+    text-align: left;
+    background:#fff8dc;
+    width:100%;
+    
+}
+.rightPane{
+     text-align: left;
+    background:#fff8dc;
+    width: 100%;
+    
+    
+    
+    
+
+
+}
+
+
 
 .main {
     height: 100%;
+    background-color: #fff8dc;
 }
 .social-image{
     width: 30px;
     margin: 15px;
 }
-.header{
-    width:100%;
-    height:500px;
-}
+
